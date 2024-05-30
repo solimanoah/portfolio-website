@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+}
+
+.header_container ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header_container li {
+    color: white;
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#noah_soliman {
+    padding-right: 45rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+#introduction {
+    height: 30rem;
+    background-image: url(images/newbackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction_container {
+    padding-top: 10rem;
+}
+
+.introduction_container h1 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.about_me_container {
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: -1.5rem;
+}
+
+.about_me_container h2 {
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+.about_me_content {
+    display: flex;
+}
+
+.about_me_container p {
+    width: 60%;
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
+}
+
+.about_me_content img {
+    position: relative;
+    bottom: 6rem;
+}
+
+#skills {
+    background-color: black;
+}
+
+.skills_container h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.skills_images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.skills_images img {
+    width: 12rem;
+    height: 15rem;
+}
+
+.contact_container h3 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+#secret_button {
+    position: relative;
+    bottom: 10rem;
+    padding: 1.5rem;
+    color: white;
+    border-style: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.secret_content {
+    display: flex;
+}
+
+#secret_text_id {
+    font-size: 1rem;
+    width: 20rem;
+    position: relative;
+    left: 10rem;
+    bottom: 11rem;
+    color: navy;
+    font-weight: 500;
+}
+
+.secret_text {
+    display: none;
+    border-style: solid;
+}
